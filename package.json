@@ -1,0 +1,14 @@
+{
+  "name": "aa-taxi-darlington",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/",
+    "build:api": "esbuild src/api.js --bundle --platform=node --format=cjs --target=node18 --outfile=netlify/functions/api.js"
+  },
+  "devDependencies": {
+    "@netlify/blobs": "^11.1.9",
+    "esbuild": "^0.28.2",
+    "jsdom": "^24.1.0"
+  }
+}

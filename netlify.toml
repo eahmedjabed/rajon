@@ -1,0 +1,9 @@
+# Netlify build and function settings.
+# publish "." serves the site from the repository root.
+# The API is one pre-bundled file, so no npm install is needed for functions.
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "none"

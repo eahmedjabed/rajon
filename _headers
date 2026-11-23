@@ -1,0 +1,8 @@
+/admin/*
+  X-Robots-Tag: noindex, nofollow
+  X-Frame-Options: DENY
+  Referrer-Policy: same-origin
+
+/api/*
+  X-Robots-Tag: noindex, nofollow
+  X-Content-Type-Options: nosniff

@@ -1,0 +1,7 @@
+# Public API routes to the single function
+/api/*  /.netlify/functions/api/:splat  200
+
+# Never serve the function folder or project files as web pages
+/netlify/*  /404.html  404
+/src/*      /404.html  404
+/tests/*    /404.html  404
